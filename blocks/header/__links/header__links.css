@@ -1,0 +1,10 @@
+.header__links {
+    list-style: none;
+    display: flex;
+    margin: 15px 0 0;
+    padding: 0;
+}
+
+.header__links li {
+    padding-left: 18px;
+}

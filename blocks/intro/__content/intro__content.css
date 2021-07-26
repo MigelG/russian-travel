@@ -1,0 +1,9 @@
+.intro__content {
+    
+}
+
+@media (min-width: 900px) {
+    .intro__content {
+        max-width: 690px;
+    }
+}
