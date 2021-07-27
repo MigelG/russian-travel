@@ -13,8 +13,8 @@
     <header class="header">
         <img class="header__logo" src="images/logo/header-logo.svg" alt="Логотип">
         <ul class="header__links">
-            <li><a class="header__lang-link header__lang-link_lg_ru" href="#">Ru</a></li>
-            <li><a class="header__lang-link header__lang-link_lg_en" href="#">En</a></li>
+            <li class="header__item"><a class="header__lang-link header__lang-link_active" href="#">Ru</a></li>
+            <li class="header__item"><a class="header__lang-link" href="#">En</a></li>
         </ul>
     </header>
 
@@ -23,50 +23,50 @@
         <section class="lead">
             <h1 class="lead__title">Путешествия по&nbsp;России</h1>
             <h2 class="lead__subtitle">Настоящая страна не в выпусках новостей,&nbsp;а&nbsp;здесь.</h2>
-            <img class="lead__image" src="images/lead-polka.jpg" alt="Красивая обложка">
-            <p class="lead__caption">ваша полка — верхняя</p>
+            <figure class="lead__figure">
+                <img class="lead__image" src="images/lead-polka.jpg" alt="Красивая обложка">
+                <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+            </figure>
         </section>
 
         <section class="intro">
-            <div class="intro__content">
-                <h2 class="intro__title">Чего мы там не&nbsp;видели?</h2>
-                <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но&nbsp;только 36%
-                    планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле,
-                    Россия
-                    — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато
-                    Путорана. А
-                    ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых
-                    перелетов.
-                    Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила
-                    их
-                    в свою «Ладу» и&nbsp;проехала 20 тысяч километров по&nbsp;родной стране. Мы выбрали
-                    и описали
-                    некоторые
-                    интересные места, достойные вашего отпуска.
-                </p>
-                <ul class="intro__list">
-                    <li>Часовых поясов 11</li>
-                    <li>Объектов природного наследия ЮНЕСКО 12</li>
-                    <li>Объектов культурного наследия ЮНЕСКО 16</li>
-                    <li>Природных заповедников 105</li>
-                    <li>Аэропортов 241</li>
-                </ul>
-            </div>
+            <h2 class="intro__title">Чего мы там не&nbsp;видели?</h2>
+            <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но&nbsp;только 36%
+                планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле,
+                Россия
+                — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато
+                Путорана. А
+                ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых
+                перелетов.
+                Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила
+                их
+                в свою «Ладу» и&nbsp;проехала 20 тысяч километров по&nbsp;родной стране. Мы выбрали
+                и описали
+                некоторые
+                интересные места, достойные вашего отпуска.
+            </p>
+            <ul class="intro__list">
+                <li>Часовых поясов <span class="intro__num">11</span></li>
+                <li>Объектов природного наследия ЮНЕСКО <span class="intro__num">12</span></li>
+                <li>Объектов культурного наследия ЮНЕСКО <span class="intro__num">16</span></li>
+                <li>Природных заповедников <span class="intro__num">105</span></li>
+                <li>Аэропортов <span class="intro__num">241</span></li>
+            </ul>
         </section>
 
         <section class="photo-grid">
-            <img class="photo-grid__item" src="images/photo-grid-train.jpg" alt="Тут была картинка">
-            <img class="photo-grid__item" src="images/photo-grid-atharva-tulsi.jpg" alt="Тут была картинка">
-            <img class="photo-grid__item" src="images/photo-grid-tuman.jpg" alt="Тут была картинка">
-            <img class="photo-grid__item" src="images/photo-grid-sochi.jpg" alt="Тут была картинка">
-            <img class="photo-grid__item" src="images/photo-grid-arisa.jpg" alt="Тут была картинка">
-            <img class="photo-grid__item" src="images/photo-grid-baikal.jpg" alt="Тут была картинка">
-            <img class="photo-grid__item" src="images/photo-grid-elbrus.jpg" alt="Тут была картинка">
-            <img class="photo-grid__item" src="images/photo-grid-kondratiev.jpg" alt="Тут была картинка">
-            <img class="photo-grid__item" src="images/photo-grid-kamchatka-1.jpg" alt="Тут была картинка">
-            <img class="photo-grid__item" src="images/photo-grid-kamchatka-2.jpg" alt="Тут была картинка">
-            <img class="photo-grid__item" src="images/photo-grid-baikal-2.jpg" alt="Тут была картинка">
-            <img class="photo-grid__item" src="images/photo-grid-ergaki.jpg" alt="Тут была картинка">
+            <img class="photo-grid__item" src="images/photo-grid-train.jpg" alt="Вид из окна поезда">
+            <img class="photo-grid__item" src="images/photo-grid-atharva-tulsi.jpg" alt="Гора Атхарва Тулси">
+            <img class="photo-grid__item" src="images/photo-grid-tuman.jpg" alt="Собака на сене">
+            <img class="photo-grid__item" src="images/photo-grid-sochi.jpg" alt="Сочи с высоты">
+            <img class="photo-grid__item" src="images/photo-grid-arisa.jpg" alt="Автомобиль на льду">
+            <img class="photo-grid__item" src="images/photo-grid-baikal.jpg" alt="Побережье Байкала">
+            <img class="photo-grid__item" src="images/photo-grid-elbrus.jpg" alt="Эльбрус">
+            <img class="photo-grid__item" src="images/photo-grid-kondratiev.jpg" alt="Пешеходный переход в горах">
+            <img class="photo-grid__item" src="images/photo-grid-kamchatka-1.jpg" alt="Камчатка">
+            <img class="photo-grid__item" src="images/photo-grid-kamchatka-2.jpg" alt="Вулкан">
+            <img class="photo-grid__item" src="images/photo-grid-baikal-2.jpg" alt="Байкал">
+            <img class="photo-grid__item" src="images/photo-grid-ergaki.jpg" alt="Природный парк Ергаки">
         </section>
 
         <section class="places">
@@ -149,11 +149,11 @@
                         знают, что это самый большой источник пресной воды и&nbsp;одно из красивейших мест
                         в&nbsp;России.
                     </p>
-                    <p class="place__paragraph">Конечно, это всё так. Но Байкал ещё идеальное место для 
-                        соревнований по скийорингу. Это такой вид спорта, когда лыжник привязывает себя
-                        к&nbsp;мотоциклу, и&nbsp;тандем старается развить как можно бóльшую скорость на льду. В
-                        марте 2019
-                        года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
+                    <p class="place__paragraph">Конечно, это всё так. Но&nbsp;Байкал ещё идеальное место для
+                        соревнований по&nbsp;скийорингу. Это такой вид спорта, когда лыжник привязывает себя
+                        к&nbsp;мотоциклу, и&nbsp;тандем старается развить как&nbsp;можно большую скорость
+                        на&nbsp;льду. В марте 2019 года на&nbsp;фестивале &laquo;Байкальская миля&raquo; был поставлен
+                        мировой рекорд&nbsp;&mdash; 197.011&nbsp;км/ч.</p>
                 </div>
             </article>
 
@@ -178,26 +178,36 @@
         </section>
 
         <section class="cover">
-            <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
-                <div class="cover__overlay">
-                    <h2 class="cover__title">До&nbsp;Байкала «на&nbsp;собаках»</h2>
-                    <h3 class="cover__subtitle">По&nbsp;мотивам учебной темы о&nbsp;Транссибе&nbsp;&mdash; путешествие
-                        от&nbsp;столицы до&nbsp;Байкала на&nbsp;электричках.</h3>
-                </div>
+            <a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+                <h2 class="cover__title">До&nbsp;Байкала «на&nbsp;собаках»</h2>
+                <h3 class="cover__subtitle">По&nbsp;мотивам учебной темы о&nbsp;Транссибе&nbsp;&mdash; путешествие
+                    от&nbsp;столицы до&nbsp;Байкала на&nbsp;электричках.</h3>
             </a>
         </section>
 
     </main>
 
     <footer class="footer">
-        <ul class="footer__list">
-            <li class="footer__item"><a class="footer__link" href="https://yandex.ru/maps">Карты</a></li>
-            <li class="footer__item"><a class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
-            <li class="footer__item"><a class="footer__link" href="https://rasp.yandex.ru">Расписание</a></li>
-            <li class="footer__item"><a class="footer__link" href="https://calendar.yandex.ru">Календарь</a></li>
-            <li class="footer__item"><a class="footer__link" href="https://travel.yandex.ru">Путешествия</a></li>
-        </ul>
-        <p class="footer__copyright">© 2020. Михаил Горбунов</p>
+        <nav>
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+                </li>
+            </ul>
+        </nav>
+        <p class="footer__copyright">&copy 2020. Михаил Горбунов</p>
     </footer>
 
 </body>

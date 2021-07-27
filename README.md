@@ -16,4 +16,4 @@
 
 **Github**
 
-* [Ссылка на репозиторий](https://github.com/MigelG/russian-travel.git)
+* [Ссылка на проект](https://migelg.github.io/russian-travel/)

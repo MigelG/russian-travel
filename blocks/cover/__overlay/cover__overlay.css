@@ -1,4 +1,6 @@
 .cover__overlay {
+    color: #fff;
+    text-decoration: none;
     background: rgba(42, 44, 47, .3);
     box-sizing: border-box;
     padding: 33px 16px;

@@ -10,7 +10,14 @@
 
 @media (min-width: 1024px) {
     .intro {
-        width: calc(100% - 48px * 2);
-        max-width: 984px;
+        width: 690px;
+        justify-self: start;
+        margin-left: 48px;
+    } 
+}
+
+@media (min-width: 1080px) {
+    .intro {
+        margin-left: calc((100% - 984px) / 2);
     } 
 }

@@ -1,0 +1,16 @@
+.lead__figure {
+    margin: 0;
+    width: calc(100% + 16px * 2);
+}
+
+@media (min-width: 768px) {
+    .lead__figure {
+        width: calc(100% + 24px * 2);
+    } 
+}
+
+@media (min-width: 928px) {
+    .lead__figure {
+        width: 100%;
+    } 
+}
